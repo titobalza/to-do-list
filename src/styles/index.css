@@ -1,4 +1,64 @@
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .delete-icon {
+    margin-right: 5px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .edit-icon {
+    color: rgb(0, 0, 0);
+  }
 
+  .todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+    background-color: aquamarine;
+    }
+  .todo-row:nth-child(4n+1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+    background-color: rgb(17, 130, 92);
+    }
+   .todo-row:nth-child(4n+2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    border-radius: 5px;
+    width: 90%;
+    background-color: rgb(219, 255, 101);
+    }
+    .todo-row:nth-child(4n+4) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 4px auto;
+        color: rgb(0, 0, 0);
+        padding: 16px;
+        border-radius: 5px;
+        width: 90%;
+        background-color: rgba(101, 206, 255, 0.912);
+        }
+       
 /* 
 
     You can write your own styles here...
